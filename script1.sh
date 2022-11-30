@@ -1,10 +1,4 @@
 #!/bin/bash
-echo "enter the first number"
-read a
-echo "enter the second number"
-read b
-echo "enter the third number"
-read c
+a=$1,b=$2,c=$3
 d=`expr $a + $b + $c`
 echo "the sum of three number is $d"
-echo
