@@ -7,3 +7,4 @@ echo "enter the third number"
 read c
 d=`expr $a + $b + $c`
 echo "the sum of three number is $d"
+echo
